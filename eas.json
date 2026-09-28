@@ -1,0 +1,15 @@
+{
+  "cli": { "version": ">= 16.0.0", "appVersionSource": "remote" },
+  "build": {
+    "preview": { "distribution": "internal", "ios": { "simulator": false } },
+    "production": { "autoIncrement": true }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "REPLACE_AFTER_ASC_CREATE",
+        "appleTeamId": "ZLM4K5RVQW"
+      }
+    }
+  }
+}
